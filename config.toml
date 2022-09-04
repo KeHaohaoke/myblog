@@ -1,8 +1,8 @@
-baseURL = "https://blog.devstream.io"
+baseURL = "https://www.kehao.dev"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
-title = "DevStream Blog"
+title = "MyBlog"
 
 theme = "LoveIt"
 
@@ -26,10 +26,10 @@ theme = "LoveIt"
       typeit = true
       social = true
   [params.social]
-    GitHub = "devstream-io"
-    Medium = "devstream"
-    Devto = "devstream"
-    RSS = true
+#    GitHub = "devstream-io"
+#    Medium = "devstream"
+#    Devto = "devstream"
+#    RSS = true
   [params.section]
     # special amount of posts in each section page
     paginate = 30
