@@ -12,7 +12,7 @@ theme = "LoveIt"
     [params.header.title]
       pre = "<i class='fa fa-solid fa-terminal'></i>"
       post = "<i class='fa fa-solid fa-user-secret'></i>"
-      name = "DevStream Blog"
+      name = "MyBlog"
   [params.page]
     [params.page.toc]
       enable = true
@@ -21,8 +21,8 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       avatarURL = "/images/logo-120px.jpg"
-      title = "DevStream"
-      subtitle = "The open-source DevOps toolchain manager (DTM)"
+      title = "MyBlog"
+      subtitle = "MyBlog"
       typeit = true
       social = true
   [params.social]
@@ -37,7 +37,7 @@ theme = "LoveIt"
     rss = 10
   [params.footer]
     enable = true
-    custom = 'Merico Inc. and the DevStream Contributors'
+    custom = 'MyBLog'
     hugo = false
     copyright = true
 
@@ -55,7 +55,7 @@ theme = "LoveIt"
   [[menu.main]]
     identifier = "about"
     name = "About"
-    url = "/about"
+    url = "/about/"
     weight = 3
   [[menu.main]]
     identifier = "posts"
