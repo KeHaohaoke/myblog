@@ -1,5 +1,5 @@
 ---
-title: "About MyBlog | 关于 MyBlog"
+title: "About MyBlog | 关于 MyBlog 博客"
 date: 2022-09-05
 ---
 
