@@ -1,0 +1,82 @@
+baseURL = "https://blog.devstream.io"
+defaultContentLanguage = "en"
+languageCode = "en"
+hasCJKLanguage = true
+title = "DevStream Blog"
+
+theme = "LoveIt"
+
+[params]
+  version = "0.2.X"
+  [params.header]
+    [params.header.title]
+      pre = "<i class='fa fa-solid fa-terminal'></i>"
+      post = "<i class='fa fa-solid fa-user-secret'></i>"
+      name = "DevStream Blog"
+  [params.page]
+    [params.page.toc]
+      enable = true
+      auto = true
+  [params.home]
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/logo-120px.jpg"
+      title = "DevStream"
+      subtitle = "The open-source DevOps toolchain manager (DTM)"
+      typeit = true
+      social = true
+  [params.social]
+    GitHub = "devstream-io"
+    Medium = "devstream"
+    Devto = "devstream"
+    RSS = true
+  [params.section]
+    # special amount of posts in each section page
+    paginate = 30
+    dateFormat = "01-02"
+    rss = 10
+  [params.footer]
+    enable = true
+    custom = 'Merico Inc. and the DevStream Contributors'
+    hugo = false
+    copyright = true
+
+[menu]
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+    weight = 3
+  [[menu.main]]
+    identifier = "posts"
+    name = "Archive"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    name = ""
+    url = "https://github.com/devstream-io/devstream"
+    weight = 5
+
+# Hugo 解析文档的配置
+[markup]
+  # 语法高亮设置 (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
+  # Table Of Contents settings
+  # 目录设置
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
