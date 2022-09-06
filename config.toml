@@ -2,7 +2,7 @@ baseURL = "https://www.kehao.dev"
 defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
-title = "MyBlog"
+title = "haozi的个人技术博客"
 
 theme = "LoveIt"
 
@@ -21,7 +21,7 @@ theme = "LoveIt"
     [params.home.profile]
       enable = true
       avatarURL = "/images/kehao.dev.png"
-      title = "MyBlog"
+      title = "haozi"
       subtitle = "This is KeHao's Tech BLog"
       typeit = true
       social = true
@@ -37,7 +37,7 @@ theme = "LoveIt"
     rss = 10
   [params.footer]
     enable = true
-    custom = 'MyBLog'
+    custom = "KeHao's Tech BLog | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
     hugo = false
     copyright = true
 
