@@ -3,6 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 hasCJKLanguage = true
 title = "haozi的个人技术博客"
+googleAnalytics = "G-X94EPBN16G"
 
 theme = "LoveIt"
 
@@ -30,6 +31,13 @@ theme = "LoveIt"
 #    Medium = "devstream"
 #    Devto = "devstream"
 #    RSS = true
+  [params.analytics]
+    enable = false
+    # Google Analytics
+    [params.analytics.google]
+      id = "G-X94EPBN16G"
+      # whether to anonymize IP
+      anonymizeIP = true
   [params.section]
     # special amount of posts in each section page
     paginate = 30
